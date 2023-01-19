@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Simple Expense Manager Project</h1>
+    </div>
+
+    <div class="container2">
+        <div class="innerContainer1">
+            <h3>Add New Item :</h3>
+            <form>
+                <label for="type" class="margin_class">Type: </label>
+                <select class="margin_class" id="type" name="type" size="1">
+                    <option value="cash">cash</option>
+                    <option value="UPI">UPI</option>
+                </select><br><br>
+            </form>
+            <form><label>Name:<input class="inputClass" type="text" id="reason" placeholder="what did you spent on..?"
+                        value=" "></label></form>
+            <form>
+                <label class="margin_class" for="Currency">Currency:</label>
+                <select class="margin_class" id="Currency" name="Currency" size="1">
+                    <option value="USD">USD</option>
+                    <option value="INR">INR</option>
+                </select><br><br>
+            </form>
+        </div>
+
+        <in class="innerContainer2">
+            <div>
+                <button class="margin_class" type="button" onclick="addFriend()">Add a new friend</button>
+            </div>
+
+
+            <form>
+
+                <label class="margin_class" for="friends">Add Friend: </label>
+                <select id="friends" name="friends" size="">
+                    <option value="Andy">Andy</option>
+                    <option value="sandy">sandy</option>
+                    <option value="randy">randy</option>
+                    <option value="mandy">mandy</option>
+                </select><br><br>
+            </form>
+            <form class="margin_class"><label>Date: <input type="date" id="date" value=" "></label></form>
+            <form><label>Amount: <input class="inputClass" type="number" id="amount" value=" "></label></label></form>
+
+    </div>
+    <div class="btn">
+        <button type="button" onclick="newExpense()">Add a New Expense</button>
+    </div>
+
+    <div class="btn">
+        <table border="1" id="table">
+
+            <thead>
+
+                <th>Filter by friend
+                    <form>
+                        <select id="friends" name="friends" size="1">
+                            <option value="Andy">Andy</option>
+                            <option value="sandy">sandy</option>
+                            <option value="randy">randy</option>
+                            <option value="mandy">mandy</option>
+                        </select><br><br>
+                    </form>
+                </th>
+                <th>
+                    <form>
+                        <label for="Currency">Currency:</label>
+                        <select id="Currency" name="Currency" size="1">
+                            <option value="USD">USD</option>
+                            <option value="INR">INR</option>
+                        </select><br><br>
+                    </form>
+                </th>
+
+            </thead>
+
+            <tr>
+                <th>Type</th>
+                <th>Name of expense</th>
+                <th>Name of friend</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Currency</th>
+            </tr>
+
+
+
+
+
+
+
+
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js" />
+</body>
+
+</html>

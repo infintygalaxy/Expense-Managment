@@ -1,0 +1,51 @@
+body {
+    background-color: aqua;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+
+}
+
+.innerContainer1 {
+
+
+    width: 300px;
+}
+
+.innerContainer2 {
+
+    width: 300px;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* .add_button {
+    margin: 10px;
+    background-color: white;
+} */
+
+.margin_class {
+    margin: 10px;
+    width: 170px;
+    height: 20px;
+}
+
+.inputClass {
+    width: 100px;
+    height: 20px;
+}
